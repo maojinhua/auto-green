@@ -21,4 +21,4 @@ jobs:
           git remote set-url origin https://${{ github.actor }}:${{ secrets.TOKEN  }}@github.com/${{ github.repository }}
           git pull --rebase
           date +"%Y-%m-%d %H:%M:%S.%N" > keepchange.txt  
-          git commit -am "a commit a day keeps your girlfriend away"  
+          git commit -am "a commit a day keeps your girlfriend away"   
